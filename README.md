@@ -15,5 +15,12 @@ I designed a Data Breach Attack Tree to illustrate various threat vectors leadin
 
 <img src="https://github.com/user-attachments/assets/ff423ee9-584b-4f26-a7bf-4dd73c2303c1" width = '600'>
 
-#### Threat Model
+#### Threat Model: Protecting Patients medical records
+
+I designed a Threat Model aimed at protecting patients' medical records in healthcare facilities, emphasizing the importance of maintaining integrity and confidentiality. The model includes a workstation zone where employees access sensitive information through multi-factor authentication to prevent unauthorized access. Additionally, I highlighted the need for regular system updates, endpoint protection with antivirus and antimalware, employee training on phishing and social engineering, and the encryption of devices containing sensitive data. 
+
+In the cloud gateway zone, the model incorporates multiple cloud databases, such as  Microsoft Azure MySQL for employee credentials, Amazon RDS MariaDB for patient medical records, and Amazon QuickSight for data insights and reporting. To ensure robust security, I incorporated firewalls, specifically Firewall as a Service (FwaaS), to block suspicious network activity in the cloud without disrupting operations. Transport Layer Security (TLS) is employed for encrypted API communication, preventing unauthorized access during data transmission.
+
+Additionally, the model emphasizes the critical need for data recovery or backup solutions to protect against data loss, cyber-attacks, and hardware failures. A Next Generation Firewall (NGFW) is implemented to safeguard backup data, with restricted access granted only to authorized personnel for better tracking and monitoring. Finally, security measures include fingerprint access and surveillance cameras to prevent device theft, enhancing the overall security posture of healthcare facilities. Overall, this comprehensive approach helps healthcare organizations safeguard against various cyber threats and maintain the confidentiality of patient information.
+
 <img src="https://github.com/user-attachments/assets/e91ac979-24f7-4266-8bd2-94022425e3ff" width = '600'>
