@@ -1,5 +1,7 @@
 # Cyber-Threat-Management
 ### Information Security Block
+During my Information Security block in my informatics Honours degree, I focused on developing threat models to identify and mitigate risks within healthcare systems. I also engaged in practical applications of cybersecurity principles, enhancing my skills in protecting sensitive information against potential breaches. Download [Full Documentation here](./InformationSecurityAssignment.pdf)
+
 Cyber-Threat Management is a framework that often used to manage the life cycle of a threat, helping me identify and respond to it with speed and accuracy. At its core, threat management relies on the seamless integration of people, processes, and technology to stay ahead of emerging threats (Pathak P, 2020). The process is continuous and involves several key stages: assessment, mitigation, insurance, detection, and remediation.
 
 <img src="https://github.com/user-attachments/assets/02513bf8-7b39-49d0-814a-0997a6782d21" width ='600'>
